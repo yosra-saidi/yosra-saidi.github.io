@@ -27,14 +27,20 @@
                 Yosra<span>Saidi</span>
             </a>
 
-            <ul class="nav-links">
-                <li><a href="#accueil">Accueil</a></li>
-                <li><a href="#about">À propos</a></li>
-                <li><a href="#skills">Compétences</a></li>
-                <li><a href="#experience">Expériences</a></li>
-                <li><a href="#projects">Projets</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+       <ul class="nav-links">
+    <li><a href="#accueil" data-i18n="nav-home">Accueil</a></li>
+    <li><a href="#about" data-i18n="nav-about">À propos</a></li>
+    <li><a href="#skills" data-i18n="nav-skills">Compétences</a></li>
+    <li><a href="#experience" data-i18n="nav-experience">Expériences</a></li>
+    <li><a href="#projects" data-i18n="nav-projects">Projets</a></li>
+    <li><a href="#contact" data-i18n="nav-contact">Contact</a></li>
+</ul>
+
+<div class="language-switcher">
+    <button id="fr-btn" class="language-btn active">FR</button>
+    <span>|</span>
+    <button id="en-btn" class="language-btn">EN</button>
+</div>
 
         </nav>
 
@@ -49,30 +55,36 @@
 
             <div class="hero-content">
 
-                <p class="hello">Bonjour, je suis</p>
+                <p class="hello" data-i18n="hero-hello">
+    Bonjour, je suis
+</p>
 
-                <h1>Yosra Saidi</h1>
+<h1>Yosra Saidi</h1>
 
-                <h2>Ingénieure en informatique</h2>
+<h2 data-i18n="hero-title">
+    Ingénieure en informatique
+</h2>
 
-                <p class="hero-description">
-                    Passionnée par les technologies numériques,
-                    le développement logiciel, le testing,
-                    le DevOps et l'intelligence artificielle.
-                </p>
+<p class="hero-description" data-i18n="hero-description">
+    Passionnée par les technologies numériques,
+    le développement logiciel, le testing,
+    le DevOps et l'intelligence artificielle.
+</p>
 
                 <div class="hero-buttons">
 
-                    <a href="#projects" class="btn primary">
-                        Voir mes projets
-                    </a>
+                   <a href="#projects"
+   class="btn primary"
+   data-i18n="hero-projects-btn">
+    Voir mes projets
+</a>
 
-                    <a href="assets/Yosra_SAIDI_CV.pdf"
-                       class="btn secondary"
-                       target="_blank">
-                        Télécharger mon CV
-                    </a>
-
+<a href="assets/Yosra_SAIDI_CV.pdf"
+   class="btn secondary"
+   target="_blank"
+   data-i18n="hero-cv-btn">
+    Télécharger mon CV
+</a>
                 </div>
 
             </div>
@@ -80,7 +92,7 @@
 
             <div class="hero-image">
 
-                <img src="images/yosra.png"
+                <img src="images/yosra1.png"
                      alt="Photo de Yosra Saidi">
 
             </div>
@@ -94,25 +106,27 @@
 
             <div class="section-title">
                 <span>01.</span>
-                <h2>À propos de moi</h2>
+             <h2 data-i18n="about-title">
+    À propos de moi
+</h2>
             </div>
 
             <div class="about-content">
 
-                <p>
-                    Ingénieure nouvellement diplômée, passionnée par
-                    la recherche et les projets innovants.
-                    Curieuse, rigoureuse et motivée, je m'intéresse
-                    particulièrement aux nouvelles technologies,
-                    à l'intelligence artificielle et aux solutions
-                    numériques.
-                </p>
+                <p data-i18n="about-text-1">
+    Ingénieure nouvellement diplômée, passionnée par
+    la recherche et les projets innovants.
+    Curieuse, rigoureuse et motivée, je m'intéresse
+    particulièrement aux nouvelles technologies,
+    à l'intelligence artificielle et aux solutions
+    numériques.
+</p>
 
-                <p>
-                    Mon objectif est de contribuer au développement
-                    de projets innovants tout en enrichissant
-                    continuellement mes compétences techniques.
-                </p>
+<p data-i18n="about-text-2">
+    Mon objectif est de contribuer au développement
+    de projets innovants tout en enrichissant
+    continuellement mes compétences techniques.
+</p>
 
             </div>
 
@@ -125,14 +139,18 @@
 
             <div class="section-title">
                 <span>02.</span>
-                <h2>Compétences</h2>
+                <h2 data-i18n="skills-title">
+    Compétences
+</h2>
             </div>
 
             <div class="skills-grid">
 
                 <div class="skill-card">
 
-                    <h3>Développement</h3>
+                    <h3 data-i18n="skills-development">
+    Développement
+</h3>
 
                     <ul>
                         <li>Java / Spring Boot</li>
@@ -147,7 +165,9 @@
 
                 <div class="skill-card">
 
-                    <h3>Testing & QA</h3>
+                    <h3 data-i18n="skills-testing">
+    Testing & QA
+</h3>
 
                     <ul>
                         <li>Playwright</li>
@@ -163,7 +183,9 @@
 
                 <div class="skill-card">
 
-                    <h3>DevOps</h3>
+                    <h3 data-i18n="skills-devops">
+    DevOps
+</h3>
 
                     <ul>
                         <li>Jenkins</li>
@@ -179,7 +201,9 @@
 
                 <div class="skill-card">
 
-                    <h3>Intelligence Artificielle</h3>
+                    <h3 data-i18n="skills-ai">
+    Intelligence Artificielle
+</h3>
 
                     <ul>
                         <li>Machine Learning</li>
@@ -199,7 +223,9 @@
 
             <div class="section-title">
                 <span>03.</span>
-                <h2>Expériences</h2>
+                <h2 data-i18n="experience-title">
+    Expériences
+</h2>
             </div>
 
 
@@ -207,27 +233,26 @@
 
                 <article class="timeline-item">
 
-                    <span class="date">
+                    <span class="date" data-i18n="experience-1-date">
                         Mars 2025 – Août 2025
                     </span>
 
-                    <h3>
-                        Stage de fin d'études
-                    </h3>
-
+                   <h3 data-i18n="experience-1-title">
+    Stage de fin d'études
+</h3>
                     <h4>
                         Innova Power Concept
                     </h4>
 
-                    <p>
-                        Conception et développement d'une plateforme
-                        dédiée à la gestion des livraisons.
-                    </p>
+                    <p data-i18n="experience-1-description">
+    Conception et développement d'une plateforme
+    dédiée à la gestion des livraisons.
+</p>
 
-                    <p>
-                        Mise en place d'une architecture microservices,
-                        pipelines CI/CD, Docker et Kubernetes.
-                    </p>
+                    <p data-i18n="experience-1-description-2">
+    Mise en place d'une architecture microservices,
+    pipelines CI/CD, Docker et Kubernetes.
+</p>
 
                     <div class="tags">
                         <span>FastAPI</span>
@@ -242,11 +267,11 @@
 
                 <article class="timeline-item">
 
-                    <span class="date">
+                    <span class="date" data-i18n="experience-2-date">
                         Juin 2024 – Juillet 2024
                     </span>
 
-                    <h3>
+                    <h3 data-i18n="experience-2-title">
                         Stage d'été
                     </h3>
 
@@ -254,7 +279,7 @@
                         DataEra
                     </h4>
 
-                    <p>
+                    <p data-i18n="experience-2-description">
                         Conception et développement d'une application
                         web de rapprochement bancaire.
                     </p>
@@ -279,7 +304,7 @@
 
             <div class="section-title">
                 <span>04.</span>
-                <h2>Mes projets</h2>
+                <h2 data-i18n="projects-title">Mes projets</h2>
             </div>
 
 
@@ -292,14 +317,12 @@
                         01
                     </div>
 
-                    <h3>
+                    <h3 data-i18n="project-1-title">
                         Pipeline DevSecOps CI/CD
                     </h3>
 
-                    <p>
-                        Conception et implémentation d'un pipeline
-                        DevSecOps automatisant le build, les tests,
-                        l'analyse de qualité et le déploiement.
+                    <p data-i18n="project-1-description">
+                        Conception et implémentation d'un pipeline CI/CD intégrant les pratiques DevSecOps afin d'automatiser l'ensemble du cycle de vie logiciel, du build au déploiement. Intégration de tests automatisés, d'analyses de qualité du code avec SonarQube et de contrôles de sécurité avec OWASP ZAP. Utilisation de Docker pour la conteneurisation et de Terraform pour l'automatisation de l'infrastructure, dans le but d'améliorer la qualité, la sécurité et la fiabilité des déploiements.
                     </p>
 
                     <div class="tags">
@@ -319,14 +342,12 @@
                         02
                     </div>
 
-                    <h3>
+                    <h3 data-i18n="project-2-title">
                         Tests d'une application de gestion de contrats
                     </h3>
 
-                    <p>
-                        Réalisation de tests de qualité logicielle
-                        selon les standards ISTQB et gestion des
-                        incidents et analyses des causes racines.
+                    <p data-i18n="project-2-description">
+                        Élaboration et exécution de tests fonctionnels et de qualité logicielle pour une application de gestion de contrats, conformément aux principes et bonnes pratiques de l'ISTQB. Préparation des scénarios de test, identification et documentation des anomalies, suivi des incidents et analyse des causes racines. Utilisation d'outils de gestion et de suivi des défauts afin de faciliter la traçabilité des tests, d'améliorer la couverture fonctionnelle et de contribuer à la fiabilité de l'application.
                     </p>
 
                     <div class="tags">
@@ -345,14 +366,12 @@
                         03
                     </div>
 
-                    <h3>
+                    <h3 data-i18n="project-3-title">
                         Tests automatisés avec Playwright
                     </h3>
 
-                    <p>
-                        Mise en place de tests automatisés end-to-end
-                        pour valider les fonctionnalités clés
-                        d'une application e-commerce MERN.
+                    <p data-i18n="project-3-description">
+                        Conception et développement de tests automatisés end-to-end avec Playwright pour valider les principales fonctionnalités d'une application e-commerce basée sur la stack MERN (MongoDB, Express.js, React.js et Node.js). Automatisation des parcours utilisateurs essentiels, vérification des interactions avec l'interface et validation des comportements attendus. Organisation des scénarios de test afin de détecter rapidement les régressions, de réduire les vérifications manuelles répétitives et d'améliorer la fiabilité des fonctionnalités.
                     </p>
 
                     <div class="tags">
@@ -370,14 +389,12 @@
                         04
                     </div>
 
-                    <h3>
+                    <h3 data-i18n="project-4-title">
                         ERP conteneurisé avec MFA
                     </h3>
 
-                    <p>
-                        Développement d'un ERP basé sur Odoo avec
-                        authentification multifactorielle et
-                        conteneurisation Docker.
+                    <p data-i18n="project-4-description">
+                        Configuration et déploiement d'un système ERP basé sur Odoo dans un environnement conteneurisé avec Docker. Mise en place d'une authentification multifacteur (MFA) afin de renforcer la sécurité des accès et de protéger les comptes utilisateurs. Configuration de l'environnement d'exécution sous Rocky Linux et structuration des composants nécessaires au fonctionnement de la solution. Ce projet vise à faciliter le déploiement, à améliorer la portabilité de l'application et à renforcer la sécurité du système d'information.
                     </p>
 
                     <div class="tags">
@@ -400,7 +417,7 @@
 
             <div class="section-title">
                 <span>05.</span>
-                <h2>Certifications</h2>
+                <h2 data-i18n="certifications-title">Certifications</h2>
             </div>
 
             <div class="certifications">
@@ -437,10 +454,10 @@
 
             <div class="section-title">
                 <span>06.</span>
-                <h2>Contact</h2>
+                <h2 data-i18n="contact-title">Contact</h2>
             </div>
 
-            <p>
+            <p data-i18n="contact-description">
                 Vous avez un projet, une opportunité ou souhaitez
                 simplement échanger ? N'hésitez pas à me contacter.
             </p>
