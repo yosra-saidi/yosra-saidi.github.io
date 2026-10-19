@@ -63,11 +63,9 @@ ul {
     max-width: 1100px;
     margin: auto;
     height: 70px;
-
     display: flex;
     align-items: center;
     justify-content: space-between;
-
     padding: 0 20px;
 }
 
@@ -106,9 +104,7 @@ ul {
     display: flex;
     align-items: center;
     gap: 6px;
-
     margin-left: 20px;
-
     white-space: nowrap;
 }
 
@@ -124,10 +120,7 @@ ul {
     transition: 0.3s ease;
 }
 
-.language-btn:hover {
-    color: var(--blue);
-}
-
+.language-btn:hover,
 .language-btn.active {
     color: var(--blue);
 }
@@ -146,11 +139,9 @@ ul {
     min-height: 100vh;
     max-width: 1100px;
     margin: auto;
-
     display: flex;
     align-items: center;
     justify-content: space-between;
-
     padding: 120px 20px 80px;
 }
 
@@ -182,38 +173,27 @@ ul {
     font-size: 18px;
 }
 
-.hero-buttons {
-    display: flex;
-    gap: 15px;
-    margin-top: 30px;
-}
-
 
 /* =========================
-   IMAGE - CERCLE BLEU
+   HERO IMAGE
 ========================= */
 
 .hero-image {
     width: 280px;
     height: 280px;
     flex-shrink: 0;
-
     border-radius: 50%;
     border: 7px solid var(--blue);
     overflow: hidden;
-
     box-shadow: 0 10px 30px rgba(37, 99, 235, 0.15);
 }
 
 .hero-image img {
     width: 100%;
     height: 100%;
-
     display: block;
-
     object-fit: cover;
     object-position: center;
-
     border-radius: 50%;
 }
 
@@ -221,6 +201,12 @@ ul {
 /* =========================
    BUTTONS
 ========================= */
+
+.hero-buttons {
+    display: flex;
+    gap: 15px;
+    margin-top: 30px;
+}
 
 .btn {
     display: inline-block;
@@ -359,7 +345,7 @@ ul {
 
 
 /* =========================
-   TAGS
+   TAGS - EXPERIENCE
 ========================= */
 
 .tags {
@@ -413,6 +399,56 @@ ul {
 
 .project-card p {
     color: var(--gray);
+}
+
+
+/* =========================
+   PROJECT TECHNOLOGY TAGS
+========================= */
+
+/* Corrige l'affichage bleu des technologies de Dawini
+   et des autres projets utilisant .project-tags */
+
+.project-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 15px;
+}
+
+.project-tags span {
+    display: inline-block;
+    background: var(--light-blue);
+    color: var(--blue);
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+
+/* =========================
+   PROJECT DEMO VIDEO
+========================= */
+
+.project-demo {
+    margin-top: 20px;
+}
+
+.project-demo h4 {
+    margin-bottom: 12px;
+    color: var(--text);
+}
+
+.demo-video {
+    display: block;
+    width: 75%;
+    max-width: 500px;
+    max-height: 280px;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: #0f172a;
 }
 
 
@@ -482,11 +518,32 @@ footer {
 
 
 /* =========================
-   RESPONSIVE - TABLETTES
+   CONFIDENTIAL SOURCE CODE
+========================= */
+
+.confidential-notice {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 14px;
+    padding: 7px 12px;
+    border: 1px solid #dbe4f0;
+    border-radius: 6px;
+    background-color: #f1f5f9;
+    color: #475569;
+    font-size: 0.85rem;
+}
+
+.confidential-icon {
+    font-size: 0.95rem;
+}
+
+
+/* =========================
+   RESPONSIVE - TABLETS
 ========================= */
 
 @media (max-width: 900px) {
-
     .navbar {
         padding: 0 15px;
     }
@@ -502,11 +559,10 @@ footer {
 
 
 /* =========================
-   RESPONSIVE - MOBILES
+   RESPONSIVE - MOBILE
 ========================= */
 
 @media (max-width: 800px) {
-
     .navbar {
         justify-content: space-between;
     }
@@ -548,8 +604,6 @@ footer {
         grid-template-columns: 1fr;
     }
 
-    /* Photo circulaire sur tablette et mobile */
-
     .hero-image {
         width: 220px;
         height: 220px;
@@ -558,11 +612,10 @@ footer {
 
 
 /* =========================
-   RESPONSIVE - PETITS MOBILES
+   RESPONSIVE - SMALL MOBILE
 ========================= */
 
 @media (max-width: 480px) {
-
     .navbar {
         height: 65px;
     }
@@ -591,8 +644,6 @@ footer {
         font-size: 21px;
     }
 
-    /* Photo circulaire sur petit écran */
-
     .hero-image {
         width: 190px;
         height: 190px;
@@ -616,4 +667,41 @@ footer {
         max-width: 280px;
         text-align: center;
     }
+
+    .project-card {
+        padding: 20px;
+    }
+
+    .demo-video {
+        width: 100%;
+    }
+}
+
+/* =========================
+   PROJECT LINKS
+========================= */
+
+.project-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.github-link {
+    display: inline-block;
+    padding: 8px 14px;
+    background: var(--blue);
+    color: var(--white);
+    border: 1px solid var(--blue);
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.github-link:hover {
+    background: var(--dark-blue);
+    border-color: var(--dark-blue);
+    transform: translateY(-2px);
 }

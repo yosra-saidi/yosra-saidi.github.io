@@ -1,4 +1,3 @@
-
 document.addEventListener("DOMContentLoaded", function () {
 
     console.log("Portfolio de Yosra Saidi chargé avec succès.");
@@ -54,6 +53,7 @@ document.addEventListener("DOMContentLoaded", function () {
             "experience-2-title": "Stage d'été",
             "experience-2-description":
                 "Conception et développement d'une application web de rapprochement bancaire.",
+            "confidential-code": "Code source confidentiel",
 
             // Projets
             "projects-title": "Mes projets",
@@ -66,15 +66,41 @@ document.addEventListener("DOMContentLoaded", function () {
                 "Tests d'une application de gestion de contrats",
             "project-2-description":
                 "Réalisation de tests de qualité logicielle selon les standards ISTQB et gestion des incidents et analyses des causes racines.",
+            
+"project-2-demo-title": "Démonstration de TestLink",
 
             "project-3-title":
                 "Tests automatisés avec Playwright",
             "project-3-description":
                 "Mise en place de tests automatisés end-to-end pour valider les fonctionnalités clés d'une application e-commerce MERN.",
-
+            "project-github": "Voir sur GitHub",
             "project-4-title": "ERP conteneurisé avec MFA",
             "project-4-description":
                 "Développement d'un ERP basé sur Odoo avec authentification multifactorielle et conteneurisation Docker.",
+
+            // Projet 5 : EnniConnect
+            "project-5-title":
+                "EnniConnect – Plateforme d'opportunités professionnelles",
+            "project-5-description":
+                "Conception et développement d'une plateforme web destinée aux nouveaux étudiants de l'ENICarthage, leur permettant de découvrir des opportunités de stages et d'emploi adaptées à leurs expériences et à leurs compétences. La plateforme valorise également les retours d'expérience des anciens étudiants afin de faciliter l'orientation professionnelle, le partage de conseils et l'accès au marché du travail. Développement d'une application full-stack avec Spring Boot pour le backend et Angular pour le frontend.",
+            "project-5-demo-title":
+                "Démonstration de l'application",
+            
+"project-6-title": "Dawini – Application de prise de rendez-vous médicaux",
+
+"project-6-description": "Développement d'une application web permettant aux utilisateurs de localiser les cabinets médicaux les plus proches et de prendre rendez-vous avec les médecins.",
+
+"project-6-demo-title": "Démonstration de l'application",
+
+"project-7-title": "Anomaly Detection – Machine Learning",
+"project-7-description": "Développement d'un modèle de Machine Learning entraîné sur un jeu de données afin de détecter les anomalies. Création d'une interface permettant de tester de nouvelles données et de déterminer si elles présentent un comportement anormal.",
+
+"project-8-title": "Développement de Web Services : REST, SOAP et GraphQL",
+"project-8-description": "Conception et développement de services web utilisant REST, SOAP et GraphQL. Exploration de différentes approches de communication entre applications, d'échange de données et d'accès aux ressources via des API.",
+
+"project-github": "Voir sur GitHub",
+
+
 
             // Certifications
             "certifications-title": "Certifications",
@@ -146,7 +172,7 @@ document.addEventListener("DOMContentLoaded", function () {
             "experience-2-title": "Summer Internship",
             "experience-2-description":
                 "Designed and developed a web application for bank reconciliation.",
-
+            "confidential-code": "Source code confidential",
             // Projects
             "projects-title": "My Projects",
 
@@ -158,15 +184,40 @@ document.addEventListener("DOMContentLoaded", function () {
                 "Testing a Contract Management Application",
             "project-2-description":
                 "Performed software quality testing according to ISTQB standards, including incident management and root cause analysis.",
+            
+"project-2-demo-title": "TestLink Demonstration",
 
             "project-3-title":
                 "Automated Testing with Playwright",
             "project-3-description":
                 "Implemented end-to-end automated tests to validate the key functionalities of a MERN e-commerce application.",
-
+            "project-github": "View on GitHub",
             "project-4-title": "Containerized ERP with MFA",
             "project-4-description":
                 "Developed an Odoo-based ERP with multi-factor authentication and Docker containerization.",
+
+            // Project 5: EnniConnect
+            "project-5-title":
+                "EnniConnect – Career Opportunities Platform",
+            "project-5-description":
+                "Designed and developed a web platform for new ENICarthage students, helping them discover internship and job opportunities suited to their experience and skills. The platform also showcases alumni experiences and feedback to support career guidance, knowledge sharing, and access to the job market. The full-stack application was developed using Spring Boot for the backend and Angular for the frontend.",
+            "project-5-demo-title":
+                "Application Demo",
+            
+"project-6-title": "Dawini – Medical Appointment Booking Application",
+
+"project-6-description": "Developed a web application that enables users to locate nearby medical practices and book appointments with doctors.",
+
+"project-6-demo-title": "Application Demo",
+
+"project-7-title": "Anomaly Detection – Machine Learning",
+"project-7-description": "Developed a Machine Learning model trained on a dataset to detect anomalies. Created an interface for testing new data and determining whether it represents anomalous behavior.",
+
+"project-8-title": "Web Services Development: REST, SOAP and GraphQL",
+"project-8-description": "Designed and developed web services using REST, SOAP, and GraphQL. Explored different approaches to application communication, data exchange, and resource access through APIs.",
+
+"project-github": "View on GitHub",
+
 
             // Certifications
             "certifications-title": "Certifications",
@@ -219,8 +270,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         });
 
-        // Traduire les certifications, qui n'ont pas encore
-        // d'attribut data-i18n dans le HTML actuel
+        // Traduire les certifications
         const certificationTitles = document.querySelectorAll(
             "#certifications .certification-card h3"
         );
@@ -307,7 +357,6 @@ document.addEventListener("DOMContentLoaded", function () {
                 error
             );
         }
-
     }
 
 
