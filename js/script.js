@@ -61,6 +61,8 @@ document.addEventListener("DOMContentLoaded", function () {
             "project-1-title": "Pipeline DevSecOps CI/CD",
             "project-1-description":
                 "Conception et implémentation d'un pipeline DevSecOps automatisant le build, les tests, l'analyse de qualité et le déploiement.",
+            
+"project-1-demo-title": "Démonstration du pipeline DevSecOps",
 
             "project-2-title":
                 "Tests d'une application de gestion de contrats",
@@ -179,6 +181,8 @@ document.addEventListener("DOMContentLoaded", function () {
             "project-1-title": "DevSecOps CI/CD Pipeline",
             "project-1-description":
                 "Designed and implemented a DevSecOps pipeline automating the build, testing, quality analysis and deployment processes.",
+            
+"project-1-demo-title": "DevSecOps Pipeline Demonstration",
 
             "project-2-title":
                 "Testing a Contract Management Application",
