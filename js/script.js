@@ -106,12 +106,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
             // Certifications
             "certifications-title": "Certifications",
-            "certification-1-title": "CCNA – Introduction aux réseaux",
-            "certification-1-description": "Cisco Networking Academy",
-            "certification-2-title": "Full Stack Development",
-            "certification-2-description":
-                "Spring Boot & Angular – Udemy",
-
+"certification-fullstack-title": "Développement Full Stack",
+"certification-fullstack-description": "Spring Boot & Angular – Udemy",
+"certification-robots-title": "Participation à l'organisation de l'événement ENICarthage Robots",
+"certification-robots-description": "Participation à l'organisation et à la coordination de l'événement ENICarthage Robots",
             // Contact
             "contact-title": "Contact",
             "contact-description":
@@ -225,12 +223,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
             // Certifications
             "certifications-title": "Certifications",
-            "certification-1-title": "CCNA – Introduction to Networks",
-            "certification-1-description": "Cisco Networking Academy",
-            "certification-2-title": "Full Stack Development",
-            "certification-2-description":
-                "Spring Boot & Angular – Udemy",
-
+"certification-fullstack-title": "Full Stack Development",
+"certification-fullstack-description": "Spring Boot & Angular – Udemy",
+"certification-robots-title": "Participation in Organizing the ENICarthage Robots Event",
+"certification-robots-description": "Participation in the organization and coordination of the ENICarthage Robots event",
             // Contact
             "contact-title": "Contact",
             "contact-description":
